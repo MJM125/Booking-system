@@ -6,6 +6,19 @@
     background-color: black;
 }
 
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+.ui-menu-color-bookings {
+    background-color: #4dc236;
+}
+.ui-menu-color-queries {
+    background-color: #af6caf;
+}
+.ui-menu-color-menu {
+    background-color: #4556f5;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -21,7 +34,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -33,4 +46,20 @@ header {
     font-size: 76px;
     margin-top: 50px;
     color: rgb(192, 160, 120);
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+.row {
+--bs-gutter-x: 0;
 }
