@@ -34,7 +34,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 300px;
+    min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -43,7 +43,7 @@ header {
 .name {
     font-family: "Tagesschrift", sans-serif;
     font-weight: 100;
-    font-size: 76px;
+    font-size: 100px;
     margin-top: 50px;
     color: rgb(192, 160, 120);
 }
@@ -68,13 +68,17 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 nav li {
     font-size: 14px;
     padding: 0;
 }
 
 .menuitem {
-    height: 120px;
+    height: 182px;
     text-align: center;
     padding: 0;
 }
@@ -83,14 +87,14 @@ nav li {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 125px;
+    height: 120px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #ecdddd;
-    font-size: 26px
+    font-size: 50px
 }
 
 .menuitem span {
@@ -99,7 +103,7 @@ nav li {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 3px;
 }
