@@ -104,6 +104,10 @@ header {
     font-size: 0;
 }
 
+.content {
+    font-family: "tTagesschrift", sans-serif;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -194,14 +198,14 @@ footer {
     padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
+/* ----------------------------------------Three reviews */
 
-.three-reasons-icon {
+.three-reviews-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #d67826;
 }
 
-.three-reasons-heading {
+.three-reviews-heading {
     margin-bottom: 15px;
 }
 
