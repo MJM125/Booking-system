@@ -84,8 +84,6 @@ header {
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
 }
 
 .name {
@@ -165,9 +163,9 @@ nav li {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 15vh;
     margin: 0;
-    position: bottom;
+    position: static;
 }
 
 .social-links {
@@ -185,9 +183,6 @@ footer {
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
